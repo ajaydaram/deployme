@@ -30,6 +30,26 @@ class Hello extends React.Component  {
 }
 ```
 
+# Creating a functional component
+
+Functional components are javascript functions which receives the objects as properties(props)and returns html(jsx) describe UI
+
+```
+function App() {
+  return (
+    <div className="App">
+      <Greet />
+    </div>
+  );
+}
+```
+This is unconventional way of writing functional component and the prefer way is write using es6 arrow functions. 
+
+
+
+
+
+
 #  JavaScript Functions
 
 ## Creating a function:
@@ -39,7 +59,7 @@ Many ways to create a JS function
 1. with function *declaration*
 2. with function *expression*
 3. using function *constructor*
-4. Using IIFE (immediatly invokable function expression)
+4. Using IIFE (immediately invocable function expression)
 
 ### construction of a function
 
