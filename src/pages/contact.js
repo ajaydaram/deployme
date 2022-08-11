@@ -4,12 +4,12 @@ import Layout from '../components/layout'
 
 //define a component 
 
-const AboutPage = () => {
+const ContactPage = () => {
     return(
-      <Layout pageTitle="About Me">
-          <p>This is the  20th time i am trying</p>
+      <Layout pageTitle="Contact">
+          <p>Here goes the contact page!</p>
       </Layout>  
     )
 }
 
-export default AboutPage
+export default ContactPage
