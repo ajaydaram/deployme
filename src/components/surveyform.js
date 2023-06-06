@@ -33,7 +33,7 @@ const SurveyForm = () => {
     return (
         <Formik initialValues={initialValues} validationSchema={validationSchema} onSubmit={onSubmit}>
             {({ isSubmitting }) => (
-                <Form>
+                <Form action="https://send.pageclip.co/{yourSiteKey}/{formName}" className="pageclip-form" method="post">
                     <div>
                         <Field
                             as={TextField}
